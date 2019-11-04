@@ -14,9 +14,14 @@ main{
 }
 .box{
   border: #000 solid 1px;
+  padding-bottom: .5rem;
+  margin-bottom: .5rem;
 }
 .fab{
   font-size: 4rem;
+}
+.fas{
+  font-size: 1.25rem;
 }
 #logo{
   width: 15%;
@@ -24,6 +29,7 @@ main{
   position: absolute;
   top: 1%;
   left: 5%;
+  z-index: 1;
 }
 .jumbotron{
   margin-top: 4%;
