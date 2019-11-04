@@ -1,0 +1,54 @@
+/* Working with screen at 850px wide */
+main{
+  max-width: 950px;
+  margin: 0 auto;
+}
+.bio{
+  padding: 1%;
+  margin: 2% 0;
+  border: #000 solid 1px;
+}
+.bio .img-later{
+  padding: 4rem;
+  margin: 1%;
+}
+.box{
+  border: #000 solid 1px;
+}
+.fab{
+  font-size: 4rem;
+}
+#logo{
+  width: 15%;
+  max-width: 150px;
+  position: absolute;
+  top: 1%;
+  left: 5%;
+}
+.jumbotron{
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+blockquote{
+  text-align: center;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: bold;
+}
+.img-later{
+  background-color: #777;
+  border: #000 solid 2px;
+  padding: 5rem;
+  text-align: center;
+  font-weight: bold;
+  color: #ccc;
+}
+footer{
+  background-color: #777;
+  margin: 0;
+}
+footer p{
+  margin: 0;
+  margin-left: 4%;
+  color: #ddd;
+}
