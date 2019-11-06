@@ -142,6 +142,293 @@ a{
   margin-bottom: .5rem;
 }
 
+#anim_frame{
+	background-color:#09c;
+	width: 520px;
+	height: 250px;
+	overflow:hidden;
+	border: solid #000 1px;
+	float: left;
+	margin: 0 10px 10px 0;
+	background-image: url(../img/top-panel-bg.png);
+}
+#anim-words{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2rem;
+	font-weight: bold;
+	position: relative;
+	top: -35px;
+	left: 130px;
+	animation: changeWords 3s linear 0s
+	forwards;
+	z-index: 1;
+}
+
+@keyframes changeWords {
+  0% {
+
+  }
+	20%{
+		top:115px;
+		left: 130px;
+		opacity:1;
+		font-size: 2.5rem;
+	}
+	40%{
+		top:115px;
+		left: 130px;
+		opacity:1;
+		font-size: 2.5rem;
+	}
+100%{
+	opacity:0;
+	top:115px;
+	left: 140px;
+	font-size: 2rem;
+  }
+}/*END changeWords */
+
+#anim-words1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2rem;
+	font-weight: bold;
+	position: relative;
+	top: 100px;
+	left: 160px;
+	animation: changeWords1 7s linear 1.5s
+	forwards;
+	opacity:0;
+	z-index: 1;
+}
+@keyframes changeWords1 {
+  0% {
+
+  }
+	20%{
+		top:100px;
+		left: 160px;
+		opacity:0;
+	}
+	30%{
+		font-size: 2.5rem;
+		top:120px;
+		left: 160px;
+		opacity:1;
+	}
+	50%{
+		font-size: 2.5rem;
+		top:120px;
+		left: 160px;
+		opacity:1;
+	}
+	62%{
+		font-size: 2.5rem;
+		top:120px;
+		left: 160px;
+		opacity:1;
+	}
+	63.5%{
+		font-size: 2.5rem;
+		top:120px;
+		left: 160px;
+		opacity:0;
+	}
+	72%{
+		font-size: 2.5rem;
+		top:120px;
+		left: 160px;
+		opacity:0;
+	}
+100%{
+	font-size: 2.5rem;
+	opacity:0;
+	top:120px;
+	left: 160px;
+  }
+}/*END changeWords1 */
+
+#webbing{
+	width:5px;
+	height:0px;
+	position:relative;
+	top: 65px;
+	left: 260px;
+	opacity:1;
+	animation: web-anim 4s ease-out 0s
+	forwards;
+
+}
+@keyframes web-anim {
+	0%{
+		height: 0px;
+		opacity:1;
+	}
+	100%{
+		height: 120px;
+		opacity:1;
+	}
+}/* END logo-anim */
+#anim_frame_bot{
+	background-color:#09c;
+	width: 520px;
+	height: 250px;
+	overflow:hidden;
+	border: solid #000 1px;
+	float: left;
+	margin: 0 10px 10px 0;
+	background-image: url(../img/bottom-panel-bg.png);
+}
+#anim-words-bottom{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2rem;
+	font-weight: bold;
+	position: relative;
+	top: -35px;
+	left: 70px;
+	animation: changeWords-bot 3s linear 4s
+	forwards;
+	z-index: 2;
+}
+
+@keyframes changeWords-bot {
+  0% {
+
+  }
+	20%{
+		top:3px;
+		left: 70px;
+		opacity:1;
+		font-size: 2.5rem;
+	}
+	40%{
+		top:3px;
+		left: 70px;
+		opacity:1;
+		font-size: 2.5rem;
+	}
+100%{
+	opacity:0;
+	top:5px;
+	left: 90px;
+	font-size: 2rem;
+  }
+}/*END changeWords-bot */
+
+#anim-words1-bottom{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	font-weight: bold;
+	position: relative;
+	top: 140px;
+	left: 310px;
+	animation: changeWords1-bot 7s linear 5.5s
+	forwards;
+	opacity:0;
+	z-index: 2;
+}
+@keyframes changeWords1-bot {
+  0% {
+
+  }
+	20%{
+		top:140px;
+		left:310px;
+		opacity:0;
+	}
+	30%{
+		font-size: 1.5rem;
+		top:160px;
+		left: 310px;
+		opacity:1;
+	}
+	50%{
+		font-size: 1.5rem;
+		top:160px;
+		left: 310px;
+		opacity:1;
+	}
+	62%{
+		font-size: 1.5rem;
+		top:160px;
+		left: 310px;
+		opacity:1;
+	}
+	63.5%{
+		font-size: 1.5rem;
+		top:160px;
+		left: 310px;
+		opacity:0;
+	}
+	72%{
+		font-size: 1.5rem;
+		top:160px;
+		left: 310px;
+		opacity:0;
+	}
+100%{
+	font-size: 1rem;
+	opacity:0;
+	top:160px;
+	left: 310px;
+  }
+}/*END changeWords1-bot */
+
+#spider{
+	width:20%;
+	position:relative;
+	top: -305px;
+	left: 210px;
+	opacity:1;
+	animation: spider-anim 5s ease-in 4s
+	forwards;
+	z-index: 1;
+
+}
+@keyframes spider-anim {
+	0%{
+	top:-305px;
+		opacity:1;
+	}
+
+	100%{
+		top:-80px;
+		opacity:1;
+	}
+}/* END spider-anim */
+#finish{
+	width:47.5%;
+	height: 49%;
+	position:relative;
+	top:-58px;
+	left:30px;
+		animation: finish-anim 3s ease-in 10s forwards;
+	opacity: 0;
+}
+@keyframes finish-anim {
+	0%{
+	top:-65px;
+		opacity:0;
+		left:30px;
+	}
+	50%{
+		top:-65px;
+		left:30px;
+		opacity:0;
+	}
+	70%{
+		top:-65px;
+		left:30px;
+		opacity:0;
+	}
+
+	100%{
+		top:-58px;
+		left:30px;
+		opacity:1;
+	}
+
+}
+
 @media only screen and (min-width: 1020px) {
   body{
     margin: 0 auto;
