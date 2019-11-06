@@ -32,8 +32,62 @@ main{
   z-index: 1;
 }
 .jumbotron{
-  margin-top: 4%;
-  margin-bottom: 2%;
+  margin: 4% auto 2% auto;
+  background-image: url(../img/Jumbo-1.jpg);
+  background-size: cover;
+  max-height: 500px;
+  padding: 25% 0;
+  animation: slideshow 15s ease 0s infinite;
+}
+@keyframes slideshow {
+  0%{
+    background-image: url(../img/Jumbo-1.jpg);
+    opacity: 0.5;
+  }
+  3%{
+    background-image: url(../img/Jumbo-1.jpg);
+    opacity: 1;
+  }
+  30%{
+    background-image: url(../img/Jumbo-1.jpg);
+    opacity: 1;
+  }
+  33%{
+    background-image: url(../img/Jumbo-1.jpg);
+    opacity: 0.5;
+  }
+  34%{
+    background-image: url(../img/Jumbo-2.jpg);
+    opacity: 0.5;
+  }
+  37%{
+    background-image: url(../img/Jumbo-2.jpg);
+    opacity: 1;
+  }
+  63%{
+    background-image: url(../img/Jumbo-2.jpg);
+    opacity: 1;
+  }
+  66%{
+    background-image: url(../img/Jumbo-2.jpg);
+    opacity: 0.5;
+  }
+  67%{
+    background-image: url(../img/Jumbo-3.jpg);
+    opacity: 1;
+  }
+  70%{
+    background-image: url(../img/Jumbo-3.jpg);
+    opacity: 1;
+  }
+  96%{
+    background-image: url(../img/Jumbo-3.jpg);
+    opacity: 1;
+  }
+  100%{
+    background-image: url(../img/Jumbo-3.jpg);
+    opacity: 0.5;
+  }
 }
 blockquote{
   text-align: center;
@@ -57,4 +111,16 @@ footer p{
   margin: 0;
   margin-left: 4%;
   color: #ddd;
+}
+h4{
+  font-size: 1.25rem;
+}
+@media only screen and (min-width: 1020px) {
+  body{
+    margin: 0 auto;
+    max-width: 1020px;
+  }
+  .jumbotron{
+    padding: 250px 0;
+  }
 }
