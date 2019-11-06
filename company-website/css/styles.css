@@ -127,10 +127,9 @@ h2 {
 h3{
   color: #009ACD;
   font-weight: 700;
-
 }
 p{
-  color: #104E8B	;
+  color: #104E8B;
 }
 a:hover{
 	color: #0000FF;
@@ -138,6 +137,11 @@ a:hover{
 a{
   color: #00688B;
 }
+
+.bottom-image{
+  margin-bottom: .5rem;
+}
+
 @media only screen and (min-width: 1020px) {
   body{
     margin: 0 auto;
